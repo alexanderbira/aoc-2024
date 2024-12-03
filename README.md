@@ -1,27 +1,18 @@
-# Advent of Code JS/TS Template
+# Advent of Code 2024
 
-This is a template for solving the Advent of Code challenges in JS/TS.
+These are my solutions for the [2024 Advent of Code](https://adventofcode.com/2024) problems.
 
-## Usage
-To create a new solution for a day, make a new file in the `scripts` directory with the name `dayXX.ts` or `dayXX.js` where `XX` is the day number. E.g. `day01.ts`.
+I'm aiming to write them in TypeScript, but I'll resort to JavaScript if the type system gets in my way. My only goal is to solve the problems, so I apologise in advance for any bad asymptotic time complexities.
 
-Copy the input for the day into a file named `inputXX.txt` in the `inputs` directory. E.g. `input01.txt`.
+## Getting Started
+Install [Deno](https://deno.com).
 
-Add the following code to the top of the script file:
-```typescript
-import read from "../read.ts";
-const input = await read(X);
-```
-Where `X` is the day number. (e.g. `const input = await read(1);`)
-This will read the input file for the day and store it in the `input` variable.
+Copy your input into `inputs/dayXX.txt`, where `XX` is the 2-digit day number.
 
-Write your solution code below these lines.
-
-To run the solution, use the following command:
-
-```bash
+Run:
+```shell
 deno task day X
 ```
-Where `X` is the day number. (e.g. `deno task day 1`
+where `X` is the day number.
 
-Your solution will be run and the output will be displayed in the console along with the time it took to run.
+The answer to part 1 and part 2 for the given input will be printed to the console, as well as the total runtime.
