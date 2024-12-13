@@ -1,5 +1,8 @@
 {
   "tasks": {
     "day": "deno run --allow-read main.ts"
+  },
+  "imports": {
+    "mathjs": "npm:mathjs@^14.0.1"
   }
 }
