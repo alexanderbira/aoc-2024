@@ -79,4 +79,4 @@ while (left < right) {
   }
 }
 
-console.log(coords[left - 1]);
+console.log(coords[left - 1].join());
