@@ -1,0 +1,110 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@datastructures-js/priority-queue@^6.3.1": "6.3.1",
+    "npm:graphology@~0.25.4": "0.25.4_graphology-types@0.24.8",
+    "npm:mathjs@^14.0.1": "14.0.1"
+  },
+  "npm": {
+    "@babel/runtime@7.26.0": {
+      "integrity": "sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==",
+      "dependencies": [
+        "regenerator-runtime"
+      ]
+    },
+    "@datastructures-js/heap@4.3.3": {
+      "integrity": "sha512-UcUu/DLh/aM4W3C8zZfwxxm6/6FIZUlm3mcAXuNOCa6Aj4iizNvNXQyb8DjZQH2jKSQbMRyNlngP6TPimuGjpQ=="
+    },
+    "@datastructures-js/priority-queue@6.3.1": {
+      "integrity": "sha512-eoxkWql/j0VJ0UFMFTpnyJz4KbEEVQ6aZ/JuJUgenu0Im4tYKylAycNGsYCHGXiVNEd7OKGVwfx1Ac3oYkuu7A==",
+      "dependencies": [
+        "@datastructures-js/heap"
+      ]
+    },
+    "complex.js@2.4.2": {
+      "integrity": "sha512-qtx7HRhPGSCBtGiST4/WGHuW+zeaND/6Ld+db6PbrulIB1i2Ev/2UPiqcmpQNPSyfBKraC0EOvOKCB5dGZKt3g=="
+    },
+    "decimal.js@10.4.3": {
+      "integrity": "sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA=="
+    },
+    "escape-latex@1.2.0": {
+      "integrity": "sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw=="
+    },
+    "events@3.3.0": {
+      "integrity": "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q=="
+    },
+    "fraction.js@5.2.1": {
+      "integrity": "sha512-Ah6t/7YCYjrPUFUFsOsRLMXAdnYM+aQwmojD2Ayb/Ezr82SwES0vuyQ8qZ3QO8n9j7W14VJuVZZet8U3bhSdQQ=="
+    },
+    "graphology-types@0.24.8": {
+      "integrity": "sha512-hDRKYXa8TsoZHjgEaysSRyPdT6uB78Ci8WnjgbStlQysz7xR52PInxNsmnB7IBOM1BhikxkNyCVEFgmPKnpx3Q=="
+    },
+    "graphology@0.25.4_graphology-types@0.24.8": {
+      "integrity": "sha512-33g0Ol9nkWdD6ulw687viS8YJQBxqG5LWII6FI6nul0pq6iM2t5EKquOTFDbyTblRB3O9I+7KX4xI8u5ffekAQ==",
+      "dependencies": [
+        "events",
+        "graphology-types",
+        "obliterator"
+      ]
+    },
+    "javascript-natural-sort@0.7.1": {
+      "integrity": "sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw=="
+    },
+    "mathjs@14.0.1": {
+      "integrity": "sha512-yyJgLwC6UXuve724np8tHRMYaTtb5UqiOGQkjwbSXgH8y1C/LcJ0pvdNDZLI2LT7r+iExh2Y5HwfAY+oZFtGIQ==",
+      "dependencies": [
+        "@babel/runtime",
+        "complex.js",
+        "decimal.js",
+        "escape-latex",
+        "fraction.js",
+        "javascript-natural-sort",
+        "seedrandom",
+        "tiny-emitter",
+        "typed-function"
+      ]
+    },
+    "obliterator@2.0.4": {
+      "integrity": "sha512-lgHwxlxV1qIg1Eap7LgIeoBWIMFibOjbrYPIPJZcI1mmGAI2m3lNYpK12Y+GBdPQ0U1hRwSord7GIaawz962qQ=="
+    },
+    "regenerator-runtime@0.14.1": {
+      "integrity": "sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw=="
+    },
+    "seedrandom@3.0.5": {
+      "integrity": "sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg=="
+    },
+    "tiny-emitter@2.1.0": {
+      "integrity": "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q=="
+    },
+    "typed-function@4.2.1": {
+      "integrity": "sha512-EGjWssW7Tsk4DGfE+5yluuljS1OGYWiI1J6e8puZz9nTMM51Oug8CD5Zo4gWMsOhq5BI+1bF+rWTm4Vbj3ivRA=="
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/deno_deque/mod.ts": "https://deno.land/x/deno_deque@1.0.0/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/x/collections@0.12.1/binary_heap.ts": "eff2e3379e942c1dcb8f231f97e0631404090364b58e3f998b26bfddb15bf287",
+    "https://deno.land/x/collections@0.12.1/common.ts": "599e204a14953ea70f45393297a8b9c2f2ae19965499af88a60807cec3d5a599",
+    "https://deno.land/x/collections@0.12.1/comparators.ts": "bf94763e6e4f77e8dff509975eceeb7af4cbbe1cbc52df02d344bf3222fd46be",
+    "https://deno.land/x/collections@0.12.1/mod.ts": "4726947125621ebc1c6afb5a343e8e1c4cb51456c6958816cc2bb38b7328b585",
+    "https://deno.land/x/collections@0.12.1/trees/bs_node.ts": "2b3f8bab9a2a17fbae7c1916af34c737ec7db511aa71cd21f4f34004df12f308",
+    "https://deno.land/x/collections@0.12.1/trees/bs_tree.ts": "61d12f0de5b2eee1f49894d2d4264eb90b5f231362955ce6ac03b7fb39351f26",
+    "https://deno.land/x/collections@0.12.1/trees/rb_node.ts": "6ec3da138add03929317a90a9fe515060947d863355a711a4902ecc9b95e4e66",
+    "https://deno.land/x/collections@0.12.1/trees/rb_tree.ts": "8610983e40f7cca1ff5997292976b87987cb7c2b0fc12354622d7b275c1da243",
+    "https://deno.land/x/collections@0.12.1/vector.ts": "98ead8c7d53e4c37be5591d8f3389af013b4bfc00ea5f530498af90c52be2b40",
+    "https://deno.land/x/deno_deque@1.0.0/mod.ts": "bc930ca982eb330b9131c7b3b94ac9a53f47af51b5a1c62b6c6c26e6214e242b"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:mathjs@^14.0.1"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@datastructures-js/priority-queue@^6.3.1",
+        "npm:graphology@~0.25.4",
+        "npm:mathjs@^14.0.1"
+      ]
+    }
+  }
+}
